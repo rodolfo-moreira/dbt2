@@ -1,6 +1,6 @@
 {{ config(materialized='table', alias='vendas') }}
 
-WITH scr AS (
+WITH src AS (
     SELECT * FROM {{ source('bronze', 'abastecimento_vendas')}}
 )
 
