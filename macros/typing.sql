@@ -10,6 +10,6 @@
     TO_TIMESTAMP({{ col }})
 {%- endmacro %}
 
-{% macro cast_timestamp(col) -%}
+{% macro cast_date(col) -%}
     TO_DATE({{ col }})
 {%- endmacro %}
