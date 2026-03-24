@@ -14,5 +14,5 @@ SELECT
     {{ cast_decimal('pcotot') }} AS preco_total,
     {{ cast_decimal('descontotot') }} AS desconto_total,
     {{ cast_int('qtd') }} AS quantidade,
-    {{ cast_date('data', 'yyyy-MM-dd') }} AS data
+    {{ cast_date('data') }} AS data
 FROM src
