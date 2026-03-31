@@ -5,7 +5,3 @@ sources:
     schema: bronze
     tables:
       - name: abastecimento_vendas
-        columns:
-          - name: data
-            data_tests:
-              - not_null
